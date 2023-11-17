@@ -1,2 +1,2 @@
-# movie_reccomendation_project
+# movie_recomendation_project
 UCF Bootcamp Final Project
