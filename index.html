@@ -49,6 +49,7 @@ body {
   background-color: #f1f1f1;
   padding: 10px;
 }
+
 </style>
 </head>
 <body>
@@ -63,14 +64,14 @@ body {
   <img src="Images/icon.png">
   <h2>Movie Recommender</h2>
   <p>Find your next perfect movie, using machine learning!</p>
-  <label for="gender">Select your gender:</label> 
+  <label for="gender">First, select your gender:</label> 
     <select name="gender" id="gender"> 
-        <option value="male">Male</option> 
-        <option value="female">Female</option>
+        <option value="M">Male</option> 
+        <option value="F">Female</option>
     </select>
     <p></p>
 
-  <label for="age-range">Choose your age range:</label> 
+  <label for="age-range">Next, choose your age range:</label> 
     <select name="age-range" id="age-range"> 
         <option value="1">Under 18</option> 
         <option value="18">18-24</option> 
@@ -80,10 +81,18 @@ body {
         <option value="50">50-55</option> 
         <option value="56">56+</option> 
     </select>
+    <p>Finally, pick the movie to base your recommendations on:</p>
+    <p id="search">
+      <form action="" method="get">
+          <input type="text" name="search_text" id="search_text" placeholder="type your movie here"/>
+      </form>
+    </p>
+    <button type="button">Recommend!</button>
 </div>
 
 <div class="footer">
   <p>A project by Jeff Davidson, Steven Marsicek, Juan Suarez, and Richard Slader Torres</p>
+  <a href="https://grouplens.org/datasets/movielens/" target="_blank">Source Data</a>
 </div>
 
 </body>
