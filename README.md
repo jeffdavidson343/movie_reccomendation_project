@@ -23,3 +23,9 @@ The function then takes input from user of a movie name. Based on that user inpu
 We also noticed our original data set was giving equal weight to every review, causing some movies to be recommneded too often. To solve this, we filtered our data to
 only include movies with >7 reviews. We also only considered ratings from users that have left more than 40 reviews.
 This filtering still left us with 3,319 unique reviewers, and 4,690 movies for our model.
+
+Instructions
+---
+1. a
+2. b
+3. c
