@@ -26,6 +26,8 @@ This filtering still left us with 3,319 unique reviewers, and 4,690 movies for o
 
 Instructions
 ---
-1. a
-2. b
-3. c
+Instructions for Nearest Neighbors Model
+1. a. Download CSV's Stored in the main folder along with "recomendation" jupyter notebook.
+2. b. Open recomendation notebook and run all lines of code up to codebox 12 
+3. c.  In code box 12, enter a movie title in the quotes in the "Get Movie recomendation" fucntion
+4. d. enjoy the results
