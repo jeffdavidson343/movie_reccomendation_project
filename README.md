@@ -1,7 +1,7 @@
 # movie_recomendation_project
 UCF Bootcamp Final Project
 
-Authored by Jeffrey Davidson, Steven marsicek, Juan Suarez, and Richard Slader Torres
+Authored by Jeffrey Davidson, Steven Marsicek, Juan Suarez, and Richard Slader Torres
 
 Introduction
 ---
